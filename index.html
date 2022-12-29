@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
+    <script src="home.js"></script>
+</head>
+
+<body>
+    <div id="navigation-bar">
+
+        <span class="yatra-logo">
+                <a href="home.html"><img src="image/Screenshot (115).png" alt="this is yatra logo"></a>
+            </span>
+        <div id="nav">
+
+            <a href="#"><i class="fa-solid fa-plane-departure">
+                    <div class="nav-items">
+                        Flight
+                    </div>
+                </i></a>
+            <a href="#"><i class="fa-solid fa-bed">
+                    <div class="nav-items">
+                        Hotels
+                    </div>
+                </i></a>
+            <a href="#"><i class="fa-sharp fa-solid fa-champagne-glasses">
+                <div class="nav-items">
+                    Holidays
+                </div>
+                </i>
+            </a>
+            <a href="#"><i class="fa-brands fa-cc-visa">
+                <div class="nav-items">
+                    Visa
+                </div>
+                </i>
+            </a>
+            <a href="#"><i class="fa-solid fa-bus-simple">
+                <div class="nav-items">
+                    Buses
+                </div>
+                </i>
+            </a>
+
+            <a href="#"><i class="fa-solid fa-hotel">
+                <div class="nav-items">
+                   Villa and Stays
+                </div>
+                </i>
+            </a>
+            <span id="more">
+                <a href="#">+ More</a>
+            </span>
+            <span id="left-section">
+                    <span class="left">
+                  <a href="#">MyAccount</a></span>
+            <span class="left">
+               <a href="#">Support</a> </span>
+            <span class="left">
+               <a href="#">Offers</a> </span>
+
+            <span class="left">  <a href="#"> Yatra for Business</a> </span>
+            </span>
+
+        </div>
+    </div>
+    <div class="coupon">
+        <a href="#">
+            <button onclick="couponclose()">&times;</button>
+
+        </a>
+    </div>
+    <div id="ticket-section">
+        <div id="ticket-section-heading">Books Flights,Hotels and Holiday Packages</div>
+        <div id="button-1"><a href="#">ONE WAY</a> </div>
+        <div id="button-2"><a href="#"> ROUND TRIP</a></div>
+        <div id="button-3"><a href="">MULTI-TRIP</a></div>
+        <div class="depature-details">
+            <div id="right-ticket-section">
+                <div class="details">Depart From</div>
+                <input type="text" class="filling-city">
+                <div class="ticket-date">Departure Date</div>
+                <input type="date" class="filling-date">
+            </div>
+            <div id="left-ticket-section">
+                <div class="details">Going To</div>
+                <input type="text" class="filling-city">
+                <div class="ticket-date">Return Date</div>
+                <input type="date" class="filling-date">
+            </div>
+        </div>
+        <div id="ticket-more-details">
+            <div id="ticket-class">Travaller(s),class</div>
+
+            <input type="text" id="filling-class">
+            <div>
+                <input type="checkbox" class="option">Non Stop Flights
+                <input type="checkbox" class="option">Student Fare
+            </div>
+            <div>
+                <input type="checkbox" class="remaining-option">Armed Forces
+                <input type="checkbox" class="remaining-option">Senior Citizen
+            </div>
+            <div id="refund">
+                <a href="#"> Check Your Refund</a>
+            </div>
+            <div id="search">
+                <a href="#"> Search For Flights</a>
+            </div>
+        </div>
+    </div>
+    </div>
+    <div id="tickets-offer">
+
+        <div id="tickets-offer-heading">Yatra Specials</div>
+        <div id="offer-img">
+            <a href="#"><img src="image/Screenshot (117).png" alt="this is image of offer"></a>
+            <a href="#"><img src="image/117.png" alt="this is image of offer"></a>
+            <a href="#"><img src="image/1188.png" alt="this is image of offer"></a>
+        </div>
+        <div class="popular-offer">
+            <div id="popular-offer-heading">Popular Domestic Flight Routes</div>
+            <div class="popular-cities-link">From-
+                <a href="#">NEW DELHI</a>
+                <a href="#">MUMBAI</a>
+                <a href="#">BANGALORE</a>
+                <a href="#">HYDERABAD</a>
+                <a href="#">CHENNAI</a>
+                <a href="#">OTHERS</a>
+            </div>
+        </div>
+        <div class="detail-box">
+            <a href="#">
+                <div class="city"> DELHI </div>
+                <div class="date">wed, 18 Jan </div>
+                <div class="city"> Mumbai</div>
+                <div class="detail"> Starting From </div>
+                <div class="rate"> Rs 4,350</div>
+            </a>
+
+        </div>
+
+        <div class="detail-box">
+            <a href="#">
+                <div class="city"> DELHI </div>
+                <div class="date">Tue, 21 Feb </div>
+                <div class="city"> Bengaluru</div>
+                <div class="detail"> Starting From </div>
+                <div class="rate"> Rs 5,025</div>
+            </a>
+        </div>
+        <div class="detail-box">
+            <a href="#">
+                <div class="city"> DELHI </div>
+                <div class="date">Thu, 19 Jan </div>
+                <div class="city"> Goa</div>
+                <div class="detail"> Starting From </div>
+                <div class="rate"> Rs 6,380</div>
+            </a>
+        </div>
+        <div class="detail-box">
+            <a href="#">
+                <div class="city"> DELHI </div>
+                <div class="date">Thu, 23 Feb</div>
+                <div class="city"> Hyderabad</div>
+                <div class="detail"> Starting From </div>
+                <div class="rate"> Rs 5,350</div>
+            </a>
+        </div>
+        <div class="popular-offer">
+            <div id="popular-offer-heading">Popular Domestic Flight Routes</div>
+            <div class="popular-cities-link">From-
+                <a href="#">NEW DELHI</a>
+                <a href="#">MUMBAI</a>
+                <a href="#">BANGALORE</a>
+                <a href="#">HYDERABAD</a>
+                <a href="#">CHENNAI</a>
+                <a href="#">OTHERS</a>
+            </div>
+        </div>
+        <div class="detail-box">
+            <a href="#">
+                <div class="city"> DELHI </div>
+                <div class="date">wed, 18 Jan </div>
+                <div class="city"> Mumbai</div>
+                <div class="detail"> Starting From </div>
+                <div class="rate"> Rs 4,350</div>
+            </a>
+
+        </div>
+
+        <div class="detail-box">
+            <a href="#">
+                <div class="city"> DELHI </div>
+                <div class="date">Tue, 21 Feb </div>
+                <div class="city"> Bengaluru</div>
+                <div class="detail"> Starting From </div>
+                <div class="rate"> Rs 5,025</div>
+            </a>
+        </div>
+        <div class="detail-box">
+            <a href="#">
+                <div class="city"> DELHI </div>
+                <div class="date">Thu, 19 Jan </div>
+                <div class="city"> Goa</div>
+                <div class="detail"> Starting From </div>
+                <div class="rate"> Rs 6,380</div>
+            </a>
+        </div>
+        <div class="detail-box">
+            <a href="#">
+                <div class="city"> DELHI </div>
+                <div class="date">Thu, 23 Feb</div>
+                <div class="city"> Hyderabad</div>
+                <div class="detail"> Starting From </div>
+                <div class="rate"> Rs 5,350</div>
+            </a>
+        </div>
+    </div>
+    <div id="about">
+        <div id="aboutheading1">Why book with yatra.com?</div>
+        <div id="aboutheading2">7 Brilliant reasons Yatra should be your one-stop-shop!</div>
+        <div id="aboutsubheading">Book Flights, Hotels, Trains, Buses, Cruise and Holiday Packages</div>
+        <div id="aboutparagraph">On Yatra.com, you can tailor your trip from end-to-end by scouring suitable flights and making your flight booking before proceeding with your hotel bookings. Yatra’s vast hotel repository will see you through this process seamlessly. Any intervening
+            journey can be conveniently planned by searching up relevant train connectivity and making an IRCTC ticket booking. Look up well-researched holiday packages, sift through cruise packages and finalise your entire trip on just one platform.</div>
+        <div id="aboutmore"><a href="#">Read More....</a></div>
+    </div>
+    <div id="footer">
+        <div id="infoheading">Company Useful Links</div>
+        <div id="infolinks">
+            <div class="first-half-section">
+                <a href="#">Company Information</a>
+                <a href="#">Investor Relations</a>
+                <a href="#">Partner With Yatra</a>
+                <a href="#">Yatra for Business</a>
+            </div>
+            <div class="second-half-section">
+                <a href="#">Customer Care</a>
+                <a href="#">Product Offering</a>
+                <a href="#">Careers</a>
+                <a href="#">More</a></div>
+        </div>
+        <div id="yatrafamily">
+            <div id="headmem">Our Family</div>
+            <div id="fisrtmem">TravelGuru</div>
+            <div id="secondmem">Adventure Nation</div>
+            <div id="thirdmem"> Yatra Exotic Routes</div>
+            <div id="fourthmem">tsi yatra</div>
+
+        </div>
+        <div id="payment-methods">Security & Payments
+            <div><img src="image/(118).png" alt="#image"></div>
+        </div>
+        <div id="sociallinks">Keep In Touch
+            <a href="#"><img src="https://img.icons8.com/color/48/000000/facebook-new.png" alt="facebook-logo" /></a>
+            <a href="#"><img src="https://img.icons8.com/color/48/null/twitter--v1.png" alt="twitter-logo" /></a>
+            <a href="#"><img src="https://img.icons8.com/color/48/null/instagram-new--v1.png" alt="instagram-logo" /></a>
+            <a href="#"><img src="https://img.icons8.com/color/48/null/youtube-play.png" alt="youtube-logo" /></a>
+
+        </div>
+        <div id="copyright">Copyright &copy 2022 Yatra Online Limited, India. All rights reserved</div>
+    </div>
+    <script>
+        window.onload = loadcoupon();
+    </script>
+
+</body>
+
+</html>
